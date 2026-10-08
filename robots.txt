@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://keyrainsights.se/sitemap.xml
