@@ -1,0 +1,30 @@
+{
+  "transaction": {
+    "status": "success"
+  },
+  "QueryInfo": {
+    "ApiId": 5950,
+    "LocationCount": 11
+  },
+  "LocationData": {
+    "Country": "Spain",
+    "ProvinceArea": {
+      "ProvinceAreaName": "Málaga",
+      "Locations": {
+        "Location": [
+          "Benajarafe",
+          "Benalmadena",
+          "Coín",
+          "Colmenar",
+          "Fuengirola",
+          "Málaga",
+          "Marbella",
+          "Mijas",
+          "Moclinejo",
+          "Rincón de la Victoria",
+          "Torremolinos"
+        ]
+      }
+    }
+  }
+}

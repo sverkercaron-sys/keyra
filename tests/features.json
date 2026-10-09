@@ -1,0 +1,865 @@
+{
+  "transaction": {
+    "status": "success"
+  },
+  "QueryInfo": {
+    "ApiId": "5950",
+    "FeaturesCount": "185"
+  },
+  "FeaturesData": {
+    "Category": [
+      {
+        "@attributes": {
+          "Name": "Posición"
+        },
+        "Feature": [
+          {
+            "Name": "Primera línea de Playa",
+            "ParamName": "1Setting1"
+          },
+          {
+            "Name": "Primera línea de Golf",
+            "ParamName": "1Setting2"
+          },
+          {
+            "Name": "Ciudad",
+            "ParamName": "1Setting3"
+          },
+          {
+            "Name": "Suburbano",
+            "ParamName": "1Setting4"
+          },
+          {
+            "Name": "Campo",
+            "ParamName": "1Setting5"
+          },
+          {
+            "Name": "Área Comercial",
+            "ParamName": "1Setting6"
+          },
+          {
+            "Name": "Lado de la Playa",
+            "ParamName": "1Setting7"
+          },
+          {
+            "Name": "Puerto",
+            "ParamName": "1Setting8"
+          },
+          {
+            "Name": "Pueblo",
+            "ParamName": "1Setting9"
+          },
+          {
+            "Name": "Pueblo de Montaña",
+            "ParamName": "1Setting10"
+          },
+          {
+            "Name": "Cerca de Golf",
+            "ParamName": "1Setting11"
+          },
+          {
+            "Name": "Cerca de Puerto",
+            "ParamName": "1Setting12"
+          },
+          {
+            "Name": "Cerca de Tiendas",
+            "ParamName": "1Setting13"
+          },
+          {
+            "Name": "Cerca del Mar",
+            "ParamName": "1Setting14"
+          },
+          {
+            "Name": "Cerca de Cuidad",
+            "ParamName": "1Setting15"
+          },
+          {
+            "Name": "Cerca de Colegios",
+            "ParamName": "1Setting16"
+          },
+          {
+            "Name": "Cerca de Esqui",
+            "ParamName": "1Setting17"
+          },
+          {
+            "Name": "Cerca de los Bosques",
+            "ParamName": "1Setting18"
+          },
+          {
+            "Name": "Marina",
+            "ParamName": "1Setting19"
+          },
+          {
+            "Name": "Cerca de Marina",
+            "ParamName": "1Setting20"
+          },
+          {
+            "Name": "Urbanización",
+            "ParamName": "1Setting21"
+          },
+          {
+            "Name": "Complejo 1ª Línea de Playa",
+            "ParamName": "1Setting22"
+          }
+        ]
+      },
+      {
+        "@attributes": {
+          "Name": "Orientación"
+        },
+        "Feature": [
+          {
+            "Name": "Orientación Norte",
+            "ParamName": "1Orientation1"
+          },
+          {
+            "Name": "Orientación Noreste",
+            "ParamName": "1Orientation2"
+          },
+          {
+            "Name": "Orientación Este",
+            "ParamName": "1Orientation3"
+          },
+          {
+            "Name": "Orientación Sureste",
+            "ParamName": "1Orientation4"
+          },
+          {
+            "Name": "Orientación Sur",
+            "ParamName": "1Orientation5"
+          },
+          {
+            "Name": "Orientación Suroeste",
+            "ParamName": "1Orientation6"
+          },
+          {
+            "Name": "Orientación Oeste",
+            "ParamName": "1Orientation7"
+          },
+          {
+            "Name": "Orientación Noroeste",
+            "ParamName": "1Orientation8"
+          }
+        ]
+      },
+      {
+        "@attributes": {
+          "Name": "Estado"
+        },
+        "Feature": [
+          {
+            "Name": "Excelente estado de conservación",
+            "ParamName": "1Condition1"
+          },
+          {
+            "Name": "Buen estado de conservación",
+            "ParamName": "1Condition2"
+          },
+          {
+            "Name": "Regular estado de conservación",
+            "ParamName": "1Condition3"
+          },
+          {
+            "Name": "Necesita Reformas",
+            "ParamName": "1Condition4"
+          },
+          {
+            "Name": "Reformado Recientemente",
+            "ParamName": "1Condition5"
+          },
+          {
+            "Name": "Renovado Recientemente",
+            "ParamName": "1Condition6"
+          },
+          {
+            "Name": "Requiere Restauración",
+            "ParamName": "1Condition7"
+          },
+          {
+            "Name": "Nueva Construcción",
+            "ParamName": "1Condition8"
+          }
+        ]
+      },
+      {
+        "@attributes": {
+          "Name": "Piscina"
+        },
+        "Feature": [
+          {
+            "Name": "Piscina Comunitaria",
+            "ParamName": "1Pool1"
+          },
+          {
+            "Name": "Piscina Privada",
+            "ParamName": "1Pool2"
+          },
+          {
+            "Name": "Piscina Cubierta",
+            "ParamName": "1Pool3"
+          },
+          {
+            "Name": "Con Calefacción",
+            "ParamName": "1Pool4"
+          },
+          {
+            "Name": "Sitio para Piscina",
+            "ParamName": "1Pool5"
+          },
+          {
+            "Name": "Piscina de Niños",
+            "ParamName": "1Pool6"
+          }
+        ]
+      },
+      {
+        "@attributes": {
+          "Name": "Climatización"
+        },
+        "Feature": [
+          {
+            "Name": "Aire Acondicionado",
+            "ParamName": "1Climate Control1"
+          },
+          {
+            "Name": "A/A Preinstalado",
+            "ParamName": "1Climate Control2"
+          },
+          {
+            "Name": "A/A Caliente",
+            "ParamName": "1Climate Control3"
+          },
+          {
+            "Name": "A/A Frio",
+            "ParamName": "1Climate Control4"
+          },
+          {
+            "Name": "Calefacción Central.",
+            "ParamName": "1Climate Control5"
+          },
+          {
+            "Name": "Chimenea",
+            "ParamName": "1Climate Control6"
+          },
+          {
+            "Name": "Suelo Radiante",
+            "ParamName": "1Climate Control7"
+          },
+          {
+            "Name": "Bañon con S/R",
+            "ParamName": "1Climate Control8"
+          }
+        ]
+      },
+      {
+        "@attributes": {
+          "Name": "Vistas"
+        },
+        "Feature": [
+          {
+            "Name": "Vistas al Mar",
+            "ParamName": "1Views1"
+          },
+          {
+            "Name": "Vistas a Montaña",
+            "ParamName": "1Views2"
+          },
+          {
+            "Name": "Vistas a Golf",
+            "ParamName": "1Views3"
+          },
+          {
+            "Name": "Vistas a Playa",
+            "ParamName": "1Views4"
+          },
+          {
+            "Name": "Vistas a Puerto",
+            "ParamName": "1Views5"
+          },
+          {
+            "Name": "Vistas al Campo",
+            "ParamName": "1Views6"
+          },
+          {
+            "Name": "Vistas Panorámicas",
+            "ParamName": "1Views7"
+          },
+          {
+            "Name": "Vistas a Jardín",
+            "ParamName": "1Views8"
+          },
+          {
+            "Name": "Vistas a Piscina",
+            "ParamName": "1Views9"
+          },
+          {
+            "Name": "Vistas a Patio",
+            "ParamName": "1Views10"
+          },
+          {
+            "Name": "Vistas a Lago",
+            "ParamName": "1Views11"
+          },
+          {
+            "Name": "Vistas Urbanas",
+            "ParamName": "1Views12"
+          },
+          {
+            "Name": "Vistas a Esqui",
+            "ParamName": "1Views13"
+          },
+          {
+            "Name": "Vistas a Bosques",
+            "ParamName": "1Views14"
+          },
+          {
+            "Name": "Vistas a Calle",
+            "ParamName": "1Views15"
+          }
+        ]
+      },
+      {
+        "@attributes": {
+          "Name": "Caracteristicas"
+        },
+        "Feature": [
+          {
+            "Name": "Terraza Cubierta",
+            "ParamName": "1Features1"
+          },
+          {
+            "Name": "Ascensor",
+            "ParamName": "1Features2"
+          },
+          {
+            "Name": "Armarios Empotrados",
+            "ParamName": "1Features3"
+          },
+          {
+            "Name": "Cerca de Transporte",
+            "ParamName": "1Features4"
+          },
+          {
+            "Name": "Terraza Privada",
+            "ParamName": "1Features5"
+          },
+          {
+            "Name": "Solario",
+            "ParamName": "1Features6"
+          },
+          {
+            "Name": "TV Satélite",
+            "ParamName": "1Features7"
+          },
+          {
+            "Name": "ADSL / WIFI",
+            "ParamName": "1Features8"
+          },
+          {
+            "Name": "Gimnasio",
+            "ParamName": "1Features9"
+          },
+          {
+            "Name": "Sauna",
+            "ParamName": "1Features10"
+          },
+          {
+            "Name": "Sala de Juegos",
+            "ParamName": "1Features11"
+          },
+          {
+            "Name": "Paddle Tenis",
+            "ParamName": "1Features12"
+          },
+          {
+            "Name": "Pista de Tenis",
+            "ParamName": "1Features13"
+          },
+          {
+            "Name": "Aprtmnt. Huéspedes",
+            "ParamName": "1Features14"
+          },
+          {
+            "Name": "Casa de Huéspedes",
+            "ParamName": "1Features15"
+          },
+          {
+            "Name": "Trastero",
+            "ParamName": "1Features16"
+          },
+          {
+            "Name": "Lavadero",
+            "ParamName": "1Features17"
+          },
+          {
+            "Name": "Baño En-Suite",
+            "ParamName": "1Features18"
+          },
+          {
+            "Name": "Suelo de Madera",
+            "ParamName": "1Features19"
+          },
+          {
+            "Name": "Acceso de Inválidos",
+            "ParamName": "1Features20"
+          },
+          {
+            "Name": "Suelos de Mármol",
+            "ParamName": "1Features22"
+          },
+          {
+            "Name": "Jacuzzi",
+            "ParamName": "1Features23"
+          },
+          {
+            "Name": "Bar",
+            "ParamName": "1Features24"
+          },
+          {
+            "Name": "Barbacoa",
+            "ParamName": "1Features25"
+          },
+          {
+            "Name": "Acristalamiento Dobles",
+            "ParamName": "1Features27"
+          },
+          {
+            "Name": "Domotica",
+            "ParamName": "1Features28"
+          },
+          {
+            "Name": "24 Horas Recepción",
+            "ParamName": "1Features29"
+          },
+          {
+            "Name": "Restaurant",
+            "ParamName": "1Features30"
+          },
+          {
+            "Name": "Alquiler de Coches",
+            "ParamName": "1Features31"
+          },
+          {
+            "Name": "Servicio de Autobuses",
+            "ParamName": "1Features32"
+          },
+          {
+            "Name": "Day Care",
+            "ParamName": "1Features33"
+          },
+          {
+            "Name": "Cerca de la Mezquita",
+            "ParamName": "1Features34"
+          },
+          {
+            "Name": "Alojamiento del personal",
+            "ParamName": "1Features35"
+          },
+          {
+            "Name": "Establos",
+            "ParamName": "1Features36"
+          },
+          {
+            "Name": "Cerca de una Iglesia",
+            "ParamName": "1Features37"
+          },
+          {
+            "Name": "Sótano",
+            "ParamName": "1Features38"
+          },
+          {
+            "Name": "Fibra óptica",
+            "ParamName": "1Features39"
+          }
+        ]
+      },
+      {
+        "@attributes": {
+          "Name": "Muebles"
+        },
+        "Feature": [
+          {
+            "Name": "Completamente Amueblada",
+            "ParamName": "1Furniture1"
+          },
+          {
+            "Name": "Parcialmente Amueblada",
+            "ParamName": "1Furniture2"
+          },
+          {
+            "Name": "Sin Amueblar",
+            "ParamName": "1Furniture3"
+          },
+          {
+            "Name": "Opcionales",
+            "ParamName": "1Furniture4"
+          }
+        ]
+      },
+      {
+        "@attributes": {
+          "Name": "Cocina"
+        },
+        "Feature": [
+          {
+            "Name": "Cocina Equipada",
+            "ParamName": "1Kitchen1"
+          },
+          {
+            "Name": "Cocina Parcialmente Equipada",
+            "ParamName": "1Kitchen2"
+          },
+          {
+            "Name": "Cocina No Equipada",
+            "ParamName": "1Kitchen3"
+          },
+          {
+            "Name": "Cocina Comedor",
+            "ParamName": "1Kitchen4"
+          }
+        ]
+      },
+      {
+        "@attributes": {
+          "Name": "Jardin"
+        },
+        "Feature": [
+          {
+            "Name": "Jardín Comunitario",
+            "ParamName": "1Garden1"
+          },
+          {
+            "Name": "Jardín Privado",
+            "ParamName": "1Garden2"
+          },
+          {
+            "Name": "Jardín Paisajistico",
+            "ParamName": "1Garden3"
+          },
+          {
+            "Name": "Jardín de fácil mantenimiento",
+            "ParamName": "1Garden4"
+          }
+        ]
+      },
+      {
+        "@attributes": {
+          "Name": "Seguridad"
+        },
+        "Feature": [
+          {
+            "Name": "Recinto Cerrado",
+            "ParamName": "1Security1"
+          },
+          {
+            "Name": "Persianas Eléctricas",
+            "ParamName": "1Security2"
+          },
+          {
+            "Name": "Portero Automático",
+            "ParamName": "1Security3"
+          },
+          {
+            "Name": "Alarma",
+            "ParamName": "1Security4"
+          },
+          {
+            "Name": "Seguridad 24 Horas",
+            "ParamName": "1Security5"
+          },
+          {
+            "Name": "Caja fuerte",
+            "ParamName": "1Security6"
+          }
+        ]
+      },
+      {
+        "@attributes": {
+          "Name": "Aparcamiento"
+        },
+        "Feature": [
+          {
+            "Name": "Párking Subterráneo",
+            "ParamName": "1Parking1"
+          },
+          {
+            "Name": "Garaje",
+            "ParamName": "1Parking2"
+          },
+          {
+            "Name": "Párking Cubierto",
+            "ParamName": "1Parking3"
+          },
+          {
+            "Name": "Párking Libre",
+            "ParamName": "1Parking4"
+          },
+          {
+            "Name": "Párking en Calle",
+            "ParamName": "1Parking5"
+          },
+          {
+            "Name": "Más de un aparcamiento",
+            "ParamName": "1Parking6"
+          },
+          {
+            "Name": "Párking Comunitario",
+            "ParamName": "1Parking7"
+          },
+          {
+            "Name": "Párking Privado",
+            "ParamName": "1Parking8"
+          }
+        ]
+      },
+      {
+        "@attributes": {
+          "Name": "Servicios Públicos"
+        },
+        "Feature": [
+          {
+            "Name": "Electricidad",
+            "ParamName": "1Utilities1"
+          },
+          {
+            "Name": "Agua Potable",
+            "ParamName": "1Utilities2"
+          },
+          {
+            "Name": "Teléfono",
+            "ParamName": "1Utilities3"
+          },
+          {
+            "Name": "Gas",
+            "ParamName": "1Utilities4"
+          }
+        ]
+      },
+      {
+        "@attributes": {
+          "Name": "Categoría"
+        },
+        "Feature": [
+          {
+            "Name": "Ganga",
+            "ParamName": "1Category1"
+          },
+          {
+            "Name": "Frente a la playa",
+            "ParamName": "1Category2"
+          },
+          {
+            "Name": "Barato",
+            "ParamName": "1Category3"
+          },
+          {
+            "Name": "Urge venta",
+            "ParamName": "1Category4"
+          },
+          {
+            "Name": "Golf",
+            "ParamName": "1Category5"
+          },
+          {
+            "Name": "Casas de vacaciónes",
+            "ParamName": "1Category6"
+          },
+          {
+            "Name": "Inversion",
+            "ParamName": "1Category7"
+          },
+          {
+            "Name": "Lujo",
+            "ParamName": "1Category8"
+          },
+          {
+            "Name": "Pre-construcción",
+            "ParamName": "1Category9"
+          },
+          {
+            "Name": "Reducido",
+            "ParamName": "1Category10"
+          },
+          {
+            "Name": "Reposesión",
+            "ParamName": "1Category11"
+          },
+          {
+            "Name": "Reventa",
+            "ParamName": "1Category12"
+          },
+          {
+            "Name": "Con Permiso de Planificación",
+            "ParamName": "1Category13"
+          },
+          {
+            "Name": "Contemporáneo",
+            "ParamName": "1Category14"
+          },
+          {
+            "Name": "Nueva Promoción",
+            "ParamName": "1Category15"
+          }
+        ]
+      },
+      {
+        "@attributes": {
+          "Name": "Terreno / Comercial"
+        },
+        "Feature": [
+          {
+            "Name": "Terreno",
+            "ParamName": "2Plots and Ventures1"
+          },
+          {
+            "Name": "Con Licencia",
+            "ParamName": "2Plots and Ventures2"
+          },
+          {
+            "Name": "Sin Licencia",
+            "ParamName": "2Plots and Ventures3"
+          },
+          {
+            "Name": "Residencial",
+            "ParamName": "2Plots and Ventures4"
+          },
+          {
+            "Name": "Comercial",
+            "ParamName": "2Plots and Ventures5"
+          },
+          {
+            "Name": "Proyecto",
+            "ParamName": "2Plots and Ventures6"
+          },
+          {
+            "Name": "Rústico",
+            "ParamName": "2Plots and Ventures7"
+          },
+          {
+            "Name": "Urbanístico",
+            "ParamName": "2Plots and Ventures8"
+          },
+          {
+            "Name": "Totalmente Aprobado",
+            "ParamName": "2Plots and Ventures9"
+          },
+          {
+            "Name": "Sin Comenzar",
+            "ParamName": "2Plots and Ventures10"
+          },
+          {
+            "Name": "Parcialmente Terminada",
+            "ParamName": "2Plots and Ventures11"
+          },
+          {
+            "Name": "Totalmente Terminada",
+            "ParamName": "2Plots and Ventures12"
+          },
+          {
+            "Name": "Hotel",
+            "ParamName": "2Plots and Ventures13"
+          },
+          {
+            "Name": "Hostal",
+            "ParamName": "2Plots and Ventures14"
+          },
+          {
+            "Name": "Pensión y desayuno",
+            "ParamName": "2Plots and Ventures15"
+          },
+          {
+            "Name": "Bar",
+            "ParamName": "2Plots and Ventures16"
+          },
+          {
+            "Name": "Restaurante",
+            "ParamName": "2Plots and Ventures17"
+          },
+          {
+            "Name": "Tienda",
+            "ParamName": "2Plots and Ventures18"
+          },
+          {
+            "Name": "Oficina",
+            "ParamName": "2Plots and Ventures19"
+          },
+          {
+            "Name": "Apartamentos",
+            "ParamName": "2Plots and Ventures20"
+          },
+          {
+            "Name": "Casa Unifamiliares",
+            "ParamName": "2Plots and Ventures21"
+          },
+          {
+            "Name": "Villas",
+            "ParamName": "2Plots and Ventures22"
+          },
+          {
+            "Name": "Residencia de Ancianos",
+            "ParamName": "2Plots and Ventures23"
+          },
+          {
+            "Name": "Hospital",
+            "ParamName": "2Plots and Ventures24"
+          },
+          {
+            "Name": "Colegio",
+            "ParamName": "2Plots and Ventures25"
+          },
+          {
+            "Name": "Centro Deportivo",
+            "ParamName": "2Plots and Ventures26"
+          },
+          {
+            "Name": "Centro Ecuestre",
+            "ParamName": "2Plots and Ventures27"
+          },
+          {
+            "Name": "Campo de Golf",
+            "ParamName": "2Plots and Ventures28"
+          },
+          {
+            "Name": "Garaje",
+            "ParamName": "2Plots and Ventures29"
+          },
+          {
+            "Name": "Almacén",
+            "ParamName": "2Plots and Ventures30"
+          },
+          {
+            "Name": "En Arriendo",
+            "ParamName": "2Plots and Ventures31"
+          },
+          {
+            "Name": "Gymnasium",
+            "ParamName": "2Plots and Ventures32"
+          }
+        ]
+      },
+      {
+        "@attributes": {
+          "Name": "Alquileres"
+        },
+        "Feature": [
+          {
+            "Name": "Aval Bancario Requerido",
+            "ParamName": "3Rentals1"
+          },
+          {
+            "Name": "Referencias Requeridas",
+            "ParamName": "3Rentals2"
+          },
+          {
+            "Name": "Permitido Fumar",
+            "ParamName": "3Rentals3"
+          },
+          {
+            "Name": "Mascotas Permitidas",
+            "ParamName": "3Rentals4"
+          }
+        ]
+      }
+    ]
+  }
+}

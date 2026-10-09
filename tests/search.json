@@ -1,0 +1,638 @@
+{
+  "transaction": {
+    "status": "success"
+  },
+  "QueryInfo": {
+    "ApiId": "5950",
+    "QueryId": "21048e41-cff7-11e9-997f-842b2b766523",
+    "SearchType": "Sale (own properties For RSO) ",
+    "PropertyCount": 42,
+    "CurrentPage": 1,
+    "PropertiesPerPage": 10
+  },
+  "Property": [
+    {
+      "Reference": "R3479851",
+      "AgencyRef": "1175/3232",
+      "Country": "Spain",
+      "Province": "Málaga",
+      "Area": "Costa del Sol",
+      "Location": "Coín",
+      "SubLocation": "",
+      "PropertyType": {
+        "NameType": "Residential Plot",
+        "Type": "Plot",
+        "TypeId": "3-1",
+        "Subtype1": "Residential Plot",
+        "SubtypeId1": "3-2"
+      },
+      "Status": {
+        "system": "Available",
+        "en": "Available"
+      },
+      "Bedrooms": "0",
+      "Bathrooms": "0",
+      "Currency": "EUR",
+      "Price": "92000",
+      "OriginalPrice": 92000,
+      "Dimensions": "Metres",
+      "Built": 0,
+      "Terrace": 0,
+      "GardenPlot": 600,
+      "CO2Rated": "",
+      "EnergyRated": "",
+      "OwnProperty": "1",
+      "Pool": 0,
+      "Parking": 0,
+      "Garden": 0,
+      "Description": "This is a test property and not real.\r\nENGLISH DESCRIPTION IS HERE.\r\nThis is a test property and not real.\r\nENGLISH DESCRIPTION IS HERE.\r\nThis is a test property and not real.\r\nENGLISH DESCRIPTION IS HERE.\r\nThis is a test property and not real.\r\nENGLISH DESCRIPTION IS HERE.",
+      "PropertyFeatures": {
+        "Category": []
+      },
+      "MainImage": "https://media-webapi.resales-online.com/live/ShowImageXML.asp?SecId=rsoaslhkxyrotwx&Id=P1&ImgId=W1023133&z=1565604842"
+    },
+    {
+      "Reference": "R3479779",
+      "AgencyRef": "1114/3232",
+      "Country": "Spain",
+      "Province": "Málaga",
+      "Area": "Costa del Sol",
+      "Location": "Torremolinos",
+      "SubLocation": "",
+      "PropertyType": {
+        "NameType": "Middle Floor Apartment",
+        "Type": "Apartment",
+        "TypeId": "1-1",
+        "Subtype1": "Middle Floor Apartment",
+        "SubtypeId1": "1-4"
+      },
+      "Status": {
+        "system": "Available",
+        "en": "Available"
+      },
+      "Bedrooms": "2",
+      "Bathrooms": "1",
+      "Currency": "EUR",
+      "Price": "127000",
+      "OriginalPrice": 127000,
+      "Dimensions": "Metres",
+      "Built": 80,
+      "Terrace": 0,
+      "GardenPlot": 0,
+      "CO2Rated": "",
+      "EnergyRated": "",
+      "OwnProperty": "1",
+      "Pool": 1,
+      "Parking": 0,
+      "Garden": 1,
+      "Description": "This is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.",
+      "PropertyFeatures": {
+        "Category": [
+          {
+            "Type": "Pool",
+            "Value": [
+              "Communal"
+            ]
+          },
+          {
+            "Type": "Garden",
+            "Value": [
+              "Communal"
+            ]
+          },
+          {
+            "Type": "Utilities",
+            "Value": [
+              "Electricity",
+              "Drinkable Water"
+            ]
+          }
+        ]
+      },
+      "MainImage": "https://media-webapi.resales-online.com/live/ShowImageXML.asp?SecId=mgfynnlkzpvnbkt&Id=P1&ImgId=W1023133&z=1565604842"
+    },
+    {
+      "Reference": "R3479773",
+      "AgencyRef": "1105/3232",
+      "Country": "Spain",
+      "Province": "Málaga",
+      "Area": "Costa del Sol",
+      "Location": "Benalmadena",
+      "SubLocation": "",
+      "PropertyType": {
+        "NameType": "Middle Floor Apartment",
+        "Type": "Apartment",
+        "TypeId": "1-1",
+        "Subtype1": "Middle Floor Apartment",
+        "SubtypeId1": "1-4"
+      },
+      "Status": {
+        "system": "Available",
+        "en": "Available"
+      },
+      "Bedrooms": "2",
+      "Bathrooms": "1",
+      "Currency": "EUR",
+      "Price": "138000",
+      "OriginalPrice": 138000,
+      "Dimensions": "Metres",
+      "Built": 79,
+      "Terrace": 0,
+      "GardenPlot": 0,
+      "CO2Rated": "",
+      "EnergyRated": "",
+      "OwnProperty": "1",
+      "Pool": 0,
+      "Parking": 1,
+      "Garden": 0,
+      "Description": "This is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.",
+      "PropertyFeatures": {
+        "Category": [
+          {
+            "Type": "Features",
+            "Value": [
+              "Private Terrace"
+            ]
+          },
+          {
+            "Type": "Parking",
+            "Value": [
+              "Garage"
+            ]
+          },
+          {
+            "Type": "Utilities",
+            "Value": [
+              "Electricity",
+              "Drinkable Water"
+            ]
+          }
+        ]
+      },
+      "MainImage": "https://media-webapi.resales-online.com/live/ShowImageXML.asp?SecId=cffgfiwrafukryi&Id=P1&ImgId=W1023133&z=1565604842"
+    },
+    {
+      "Reference": "R3479776",
+      "AgencyRef": "1112/3232",
+      "Country": "Spain",
+      "Province": "Málaga",
+      "Area": "Costa del Sol",
+      "Location": "Torremolinos",
+      "SubLocation": "",
+      "PropertyType": {
+        "NameType": "Middle Floor Apartment",
+        "Type": "Apartment",
+        "TypeId": "1-1",
+        "Subtype1": "Middle Floor Apartment",
+        "SubtypeId1": "1-4"
+      },
+      "Status": {
+        "system": "Available",
+        "en": "Available"
+      },
+      "Bedrooms": "2",
+      "Bathrooms": "1",
+      "Currency": "EUR",
+      "Price": "140000",
+      "OriginalPrice": 140000,
+      "Dimensions": "Metres",
+      "Built": 57,
+      "Terrace": 0,
+      "GardenPlot": 0,
+      "CO2Rated": "",
+      "EnergyRated": "",
+      "OwnProperty": "1",
+      "Pool": 1,
+      "Parking": 1,
+      "Garden": 1,
+      "Description": "This is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.",
+      "PropertyFeatures": {
+        "Category": [
+          {
+            "Type": "Pool",
+            "Value": [
+              "Communal"
+            ]
+          },
+          {
+            "Type": "Features",
+            "Value": [
+              "Private Terrace"
+            ]
+          },
+          {
+            "Type": "Garden",
+            "Value": [
+              "Communal"
+            ]
+          },
+          {
+            "Type": "Parking",
+            "Value": [
+              "Garage"
+            ]
+          },
+          {
+            "Type": "Utilities",
+            "Value": [
+              "Electricity",
+              "Drinkable Water"
+            ]
+          }
+        ]
+      },
+      "MainImage": "https://media-webapi.resales-online.com/live/ShowImageXML.asp?SecId=ldssopibzgwjtbg&Id=P1&ImgId=W1023133&z=1565604842"
+    },
+    {
+      "Reference": "R3479815",
+      "AgencyRef": "1140/3232",
+      "Country": "Spain",
+      "Province": "Málaga",
+      "Area": "Costa del Sol",
+      "Location": "Benalmadena",
+      "SubLocation": "",
+      "PropertyType": {
+        "NameType": "Middle Floor Apartment",
+        "Type": "Apartment",
+        "TypeId": "1-1",
+        "Subtype1": "Middle Floor Apartment",
+        "SubtypeId1": "1-4"
+      },
+      "Status": {
+        "system": "Available",
+        "en": "Available"
+      },
+      "Bedrooms": "1",
+      "Bathrooms": "1",
+      "Currency": "EUR",
+      "Price": "150000",
+      "OriginalPrice": 150000,
+      "Dimensions": "Metres",
+      "Built": 78,
+      "Terrace": 0,
+      "GardenPlot": 0,
+      "CO2Rated": "",
+      "EnergyRated": "",
+      "OwnProperty": "1",
+      "Pool": 1,
+      "Parking": 0,
+      "Garden": 1,
+      "Description": "This is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.",
+      "PropertyFeatures": {
+        "Category": [
+          {
+            "Type": "Pool",
+            "Value": [
+              "Communal"
+            ]
+          },
+          {
+            "Type": "Features",
+            "Value": [
+              "Private Terrace"
+            ]
+          },
+          {
+            "Type": "Garden",
+            "Value": [
+              "Communal"
+            ]
+          },
+          {
+            "Type": "Utilities",
+            "Value": [
+              "Electricity",
+              "Drinkable Water"
+            ]
+          }
+        ]
+      },
+      "MainImage": "https://media-webapi.resales-online.com/live/ShowImageXML.asp?SecId=xhmceghucuarokj&Id=P1&ImgId=W1023133&z=1565604842"
+    },
+    {
+      "Reference": "R3479809",
+      "AgencyRef": "1125-M/3232",
+      "Country": "Spain",
+      "Province": "Málaga",
+      "Area": "Costa del Sol",
+      "Location": "Benalmadena",
+      "SubLocation": "",
+      "PropertyType": {
+        "NameType": "Middle Floor Apartment",
+        "Type": "Apartment",
+        "TypeId": "1-1",
+        "Subtype1": "Middle Floor Apartment",
+        "SubtypeId1": "1-4"
+      },
+      "Status": {
+        "system": "Available",
+        "en": "Available"
+      },
+      "Bedrooms": "3",
+      "Bathrooms": "1",
+      "Currency": "EUR",
+      "Price": "158000",
+      "OriginalPrice": 158000,
+      "Dimensions": "Metres",
+      "Built": 101,
+      "Terrace": 0,
+      "GardenPlot": 0,
+      "CO2Rated": "",
+      "EnergyRated": "",
+      "OwnProperty": "1",
+      "Pool": 1,
+      "Parking": 0,
+      "Garden": 0,
+      "Description": "This is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.",
+      "PropertyFeatures": {
+        "Category": [
+          {
+            "Type": "Pool",
+            "Value": [
+              "Communal"
+            ]
+          },
+          {
+            "Type": "Features",
+            "Value": [
+              "Private Terrace"
+            ]
+          },
+          {
+            "Type": "Utilities",
+            "Value": [
+              "Electricity",
+              "Drinkable Water"
+            ]
+          }
+        ]
+      },
+      "MainImage": "https://media-webapi.resales-online.com/live/ShowImageXML.asp?SecId=yildedspefhomva&Id=P1&ImgId=W1023133&z=1565604842"
+    },
+    {
+      "Reference": "R3479782",
+      "AgencyRef": "1115/3232",
+      "Country": "Spain",
+      "Province": "Málaga",
+      "Area": "Costa del Sol",
+      "Location": "Torremolinos",
+      "SubLocation": "",
+      "PropertyType": {
+        "NameType": "Middle Floor Apartment",
+        "Type": "Apartment",
+        "TypeId": "1-1",
+        "Subtype1": "Middle Floor Apartment",
+        "SubtypeId1": "1-4"
+      },
+      "Status": {
+        "system": "Available",
+        "en": "Available"
+      },
+      "Bedrooms": "2",
+      "Bathrooms": "1",
+      "Currency": "EUR",
+      "Price": "159000",
+      "OriginalPrice": 159000,
+      "Dimensions": "Metres",
+      "Built": 54,
+      "Terrace": 0,
+      "GardenPlot": 0,
+      "CO2Rated": "",
+      "EnergyRated": "",
+      "OwnProperty": "1",
+      "Pool": 1,
+      "Parking": 1,
+      "Garden": 0,
+      "Description": "This is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.",
+      "PropertyFeatures": {
+        "Category": [
+          {
+            "Type": "Pool",
+            "Value": [
+              "Communal"
+            ]
+          },
+          {
+            "Type": "Features",
+            "Value": [
+              "Private Terrace"
+            ]
+          },
+          {
+            "Type": "Parking",
+            "Value": [
+              "Garage"
+            ]
+          },
+          {
+            "Type": "Utilities",
+            "Value": [
+              "Electricity",
+              "Drinkable Water"
+            ]
+          }
+        ]
+      },
+      "MainImage": "https://media-webapi.resales-online.com/live/ShowImageXML.asp?SecId=kmtupxxloylbixw&Id=P1&ImgId=W1023133&z=1565604842"
+    },
+    {
+      "Reference": "R3479899",
+      "AgencyRef": "1916/3232",
+      "Country": "Spain",
+      "Province": "Málaga",
+      "Area": "Costa del Sol",
+      "Location": "Fuengirola",
+      "SubLocation": "",
+      "PropertyType": {
+        "NameType": "Middle Floor Apartment",
+        "Type": "Apartment",
+        "TypeId": "1-1",
+        "Subtype1": "Middle Floor Apartment",
+        "SubtypeId1": "1-4"
+      },
+      "Status": {
+        "system": "Available",
+        "en": "Available"
+      },
+      "Bedrooms": "2",
+      "Bathrooms": "1",
+      "Currency": "EUR",
+      "Price": "160000",
+      "OriginalPrice": 160000,
+      "Dimensions": "Metres",
+      "Built": 70,
+      "Terrace": 0,
+      "GardenPlot": 0,
+      "CO2Rated": "",
+      "EnergyRated": "",
+      "OwnProperty": "1",
+      "Pool": 0,
+      "Parking": 0,
+      "Garden": 0,
+      "Description": "This is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.",
+      "PropertyFeatures": {
+        "Category": [
+          {
+            "Type": "Features",
+            "Value": [
+              "Private Terrace"
+            ]
+          },
+          {
+            "Type": "Utilities",
+            "Value": [
+              "Electricity",
+              "Drinkable Water"
+            ]
+          }
+        ]
+      },
+      "MainImage": "https://media-webapi.resales-online.com/live/ShowImageXML.asp?SecId=iyajohgepsnzksl&Id=P1&ImgId=W1023133&z=1565604842"
+    },
+    {
+      "Reference": "R3479887",
+      "AgencyRef": "1910/3232",
+      "Country": "Spain",
+      "Province": "Málaga",
+      "Area": "Costa del Sol",
+      "Location": "Mijas",
+      "SubLocation": "",
+      "PropertyType": {
+        "NameType": "Middle Floor Apartment",
+        "Type": "Apartment",
+        "TypeId": "1-1",
+        "Subtype1": "Middle Floor Apartment",
+        "SubtypeId1": "1-4"
+      },
+      "Status": {
+        "system": "Available",
+        "en": "Available"
+      },
+      "Bedrooms": "2",
+      "Bathrooms": "2",
+      "Currency": "EUR",
+      "Price": "166690",
+      "OriginalPrice": 166690,
+      "Dimensions": "Metres",
+      "Built": 114,
+      "Terrace": 0,
+      "GardenPlot": 0,
+      "CO2Rated": "",
+      "EnergyRated": "",
+      "OwnProperty": "1",
+      "Pool": 1,
+      "Parking": 1,
+      "Garden": 1,
+      "Description": "This is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.",
+      "PropertyFeatures": {
+        "Category": [
+          {
+            "Type": "Pool",
+            "Value": [
+              "Communal"
+            ]
+          },
+          {
+            "Type": "Features",
+            "Value": [
+              "Private Terrace"
+            ]
+          },
+          {
+            "Type": "Garden",
+            "Value": [
+              "Communal"
+            ]
+          },
+          {
+            "Type": "Parking",
+            "Value": [
+              "Garage"
+            ]
+          },
+          {
+            "Type": "Utilities",
+            "Value": [
+              "Electricity",
+              "Drinkable Water"
+            ]
+          }
+        ]
+      },
+      "MainImage": "https://media-webapi.resales-online.com/live/ShowImageXML.asp?SecId=stbinwfsfnhjopu&Id=P1&ImgId=W1023133&z=1565604842"
+    },
+    {
+      "Reference": "R3479884",
+      "AgencyRef": "1904/3232",
+      "Country": "Spain",
+      "Province": "Málaga",
+      "Area": "Costa del Sol",
+      "Location": "Benalmadena",
+      "SubLocation": "",
+      "PropertyType": {
+        "NameType": "Middle Floor Apartment",
+        "Type": "Apartment",
+        "TypeId": "1-1",
+        "Subtype1": "Middle Floor Apartment",
+        "SubtypeId1": "1-4"
+      },
+      "Status": {
+        "system": "Available",
+        "en": "Available"
+      },
+      "Bedrooms": "1",
+      "Bathrooms": "1",
+      "Currency": "EUR",
+      "Price": "168000",
+      "OriginalPrice": 168000,
+      "Dimensions": "Metres",
+      "Built": 135,
+      "Terrace": 0,
+      "GardenPlot": 0,
+      "CO2Rated": "",
+      "EnergyRated": "",
+      "OwnProperty": "1",
+      "Pool": 1,
+      "Parking": 1,
+      "Garden": 1,
+      "Description": "This is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.\nThis is a test property and not real.\nENGLISH DESCRIPTION IS HERE.",
+      "PropertyFeatures": {
+        "Category": [
+          {
+            "Type": "Pool",
+            "Value": [
+              "Communal"
+            ]
+          },
+          {
+            "Type": "Features",
+            "Value": [
+              "Private Terrace",
+              "Jacuzzi"
+            ]
+          },
+          {
+            "Type": "Garden",
+            "Value": [
+              "Communal"
+            ]
+          },
+          {
+            "Type": "Parking",
+            "Value": [
+              "Garage"
+            ]
+          },
+          {
+            "Type": "Utilities",
+            "Value": [
+              "Electricity",
+              "Drinkable Water"
+            ]
+          }
+        ]
+      },
+      "MainImage": "https://media-webapi.resales-online.com/live/ShowImageXML.asp?SecId=tiwvercxbwcduve&Id=P1&ImgId=W1023133&z=1565604842"
+    }
+  ]
+}
