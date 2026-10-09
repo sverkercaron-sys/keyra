@@ -1,0 +1,269 @@
+{
+  "transaction": {
+    "status": "success"
+  },
+  "QueryInfo": {
+    "ApiId": 5950,
+    "PropertyTypesCount": 62
+  },
+  "PropertyTypes": {
+    "PropertyType": [
+      {
+        "Type": "Apartamento",
+        "OptionValue": "1-1",
+        "SubType": [
+          {
+            "Type": "Apartamento Planta Baja",
+            "OptionValue": "1-2"
+          },
+          {
+            "Type": "Apartamento Planta Media",
+            "OptionValue": "1-4"
+          },
+          {
+            "Type": "Apartamento en Planta Última",
+            "OptionValue": "1-5"
+          },
+          {
+            "Type": "Ático",
+            "OptionValue": "1-6"
+          },
+          {
+            "Type": "Estudio en Planta Baja",
+            "OptionValue": "1-7"
+          },
+          {
+            "Type": "Estudio Planta Media",
+            "OptionValue": "1-8"
+          },
+          {
+            "Type": "Estudio Planta Superior",
+            "OptionValue": "1-9"
+          }
+        ]
+      },
+      {
+        "Type": "Casa",
+        "OptionValue": "2-1",
+        "SubType": [
+          {
+            "Type": "Villa - Chalet",
+            "OptionValue": "2-2"
+          },
+          {
+            "Type": "Pareada",
+            "OptionValue": "2-4"
+          },
+          {
+            "Type": "Adosada",
+            "OptionValue": "2-5"
+          },
+          {
+            "Type": "Finca - Cortijo",
+            "OptionValue": "2-6"
+          },
+          {
+            "Type": "Bungalow",
+            "OptionValue": "2-9"
+          },
+          {
+            "Type": "Quad",
+            "OptionValue": "2-10"
+          },
+          {
+            "Type": "Castillo",
+            "OptionValue": "2-12"
+          },
+          {
+            "Type": "Palacete de Ciudad",
+            "OptionValue": "2-13"
+          },
+          {
+            "Type": "Cabaña de Madera",
+            "OptionValue": "2-14"
+          },
+          {
+            "Type": "Casa de Madera",
+            "OptionValue": "2-15"
+          },
+          {
+            "Type": "Autocaravana",
+            "OptionValue": "2-16"
+          },
+          {
+            "Type": "Casa Cueva",
+            "OptionValue": "2-17"
+          }
+        ]
+      },
+      {
+        "Type": "Terreno",
+        "OptionValue": "3-1",
+        "SubType": [
+          {
+            "Type": "Terreno Urbano",
+            "OptionValue": "3-2"
+          },
+          {
+            "Type": "Terreno Comercial",
+            "OptionValue": "3-3"
+          },
+          {
+            "Type": "Terreno Rustico",
+            "OptionValue": "3-4"
+          },
+          {
+            "Type": "Terreno con Ruina",
+            "OptionValue": "3-5"
+          }
+        ]
+      },
+      {
+        "Type": "Comercial",
+        "OptionValue": "4-1",
+        "SubType": [
+          {
+            "Type": "Bar",
+            "OptionValue": "4-2"
+          },
+          {
+            "Type": "Restaurante",
+            "OptionValue": "4-3"
+          },
+          {
+            "Type": "Café",
+            "OptionValue": "4-4"
+          },
+          {
+            "Type": "Hotel",
+            "OptionValue": "4-5"
+          },
+          {
+            "Type": "Hostal",
+            "OptionValue": "4-6"
+          },
+          {
+            "Type": "Casa de Invitados",
+            "OptionValue": "4-7"
+          },
+          {
+            "Type": "Cama y Desayuno",
+            "OptionValue": "4-8"
+          },
+          {
+            "Type": "Tienda",
+            "OptionValue": "4-9"
+          },
+          {
+            "Type": "Oficina",
+            "OptionValue": "4-10"
+          },
+          {
+            "Type": "Trastero",
+            "OptionValue": "4-11"
+          },
+          {
+            "Type": "Aparcamiento",
+            "OptionValue": "4-12"
+          },
+          {
+            "Type": "Granja",
+            "OptionValue": "4-13"
+          },
+          {
+            "Type": "Club Nocturno",
+            "OptionValue": "4-15"
+          },
+          {
+            "Type": "Almacén",
+            "OptionValue": "4-16"
+          },
+          {
+            "Type": "Garaje",
+            "OptionValue": "4-17"
+          },
+          {
+            "Type": "Negocio",
+            "OptionValue": "4-18"
+          },
+          {
+            "Type": "Amarre",
+            "OptionValue": "4-19"
+          },
+          {
+            "Type": "Establos",
+            "OptionValue": "4-20"
+          },
+          {
+            "Type": "Quiosco",
+            "OptionValue": "4-21"
+          },
+          {
+            "Type": "Chiringuito",
+            "OptionValue": "4-22"
+          },
+          {
+            "Type": "Bar en la Playa",
+            "OptionValue": "4-23"
+          },
+          {
+            "Type": "Mecánica",
+            "OptionValue": "4-24"
+          },
+          {
+            "Type": "Peluquerías",
+            "OptionValue": "4-25"
+          },
+          {
+            "Type": "Estudio de fotografía",
+            "OptionValue": "4-26"
+          },
+          {
+            "Type": "Lavandería",
+            "OptionValue": "4-27"
+          },
+          {
+            "Type": "Aparthotel",
+            "OptionValue": "4-28"
+          },
+          {
+            "Type": "Edificio",
+            "OptionValue": "4-29"
+          },
+          {
+            "Type": "Residencia de Mayores",
+            "OptionValue": "4-30"
+          },
+          {
+            "Type": "Viñedo",
+            "OptionValue": "4-32"
+          },
+          {
+            "Type": "Olivar",
+            "OptionValue": "4-33"
+          },
+          {
+            "Type": "Plazas Aparcamiento Múltiple",
+            "OptionValue": "4-34"
+          },
+          {
+            "Type": "Local comercial",
+            "OptionValue": "4-35"
+          },
+          {
+            "Type": "Cámping",
+            "OptionValue": "4-36"
+          },
+          {
+            "Type": "Con Lugar de Residencia",
+            "OptionValue": "4-37"
+          },
+          {
+            "Type": "Otro",
+            "OptionValue": "4-100"
+          }
+        ]
+      }
+    ]
+  }
+}

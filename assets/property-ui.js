@@ -1,0 +1,4 @@
+export function el(tag,text,className) {const n=document.createElement(tag);if(text!=null)n.textContent=text;if(className)n.className=className;return n;}
+export const price = p => p.price == null ? 'Pris på förfrågan' : new Intl.NumberFormat('sv-SE',{style:'currency',currency:/^[A-Z]{3}$/.test(p.currency)?p.currency:'EUR',maximumFractionDigits:0}).format(p.price);
+export async function get(url,signal) {const response=await fetch(url,{signal});let data;try{data=await response.json();}catch{throw Error('Bostadsutbudet kunde inte hämtas. Försök igen om en stund.');}if(!response.ok)throw Error(data.message || 'Utbudet är tillfälligt otillgängligt.');return data;}
+export function image(src,alt) {const img=el('img');img.src=src;img.alt=alt;img.loading='lazy';img.addEventListener('error',()=>{img.replaceWith(el('div','Bild saknas','no-photo'));},{once:true});return img;}
