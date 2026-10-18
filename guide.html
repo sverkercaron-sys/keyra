@@ -17,6 +17,13 @@ body.js-tabs section.phase-content.active{display:block}
 .phase-next{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 20px;border:1px solid #354b67;border-radius:8px;background:#354b67;color:#fff;text-decoration:none;font:600 15px/1.4 Arial,sans-serif;cursor:pointer}
 .phase-next:hover{background:#26394f;border-color:#26394f}
 .phase-next:focus-visible{outline:3px solid #906e55;outline-offset:3px}
+
+/* Bildgallerier för de fyra faserna i köpguiden */
+.phase-image-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:22px 0 30px}
+.phase-image-grid figure{margin:0;min-width:0;background:#faf8f4;border:1px solid #e4e0da;border-radius:8px;overflow:hidden}
+.phase-image-grid img{display:block;width:100%;height:220px;object-fit:cover}
+.phase-image-grid figcaption{padding:10px 12px;font-size:14px;line-height:1.5;color:#354b67}
+@media(max-width:600px){.phase-image-grid{grid-template-columns:1fr;gap:12px}.phase-image-grid img{height:210px}}
 </style><link rel="canonical" href="https://keyrainsights.se/guide.html"><meta property="og:title" content="Köpguiden: Så köper du bostad i Spanien steg-för-steg"><meta property="og:type" content="article"><meta property="og:url" content="https://keyrainsights.se/guide.html"><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://keyrainsights.se/#website", "url": "https://keyrainsights.se/", "name": "Keyra Insights", "inLanguage": "sv-SE"}, {"@type": "Article", "@id": "https://keyrainsights.se/guide.html#content", "url": "https://keyrainsights.se/guide.html", "name": "Köpguiden: Så köper du bostad i Spanien steg-för-steg", "inLanguage": "sv-SE", "isPartOf": {"@id": "https://keyrainsights.se/#website"}, "headline": "Köpguiden: Så köper du bostad i Spanien steg-för-steg", "mainEntityOfPage": "https://keyrainsights.se/guide.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Start", "item": "https://keyrainsights.se/"}, {"@type": "ListItem", "position": 2, "name": "Kunskapsbank", "item": "https://keyrainsights.se/kunskapsbank.html"}, {"@type": "ListItem", "position": 3, "name": "Köpguiden", "item": "https://keyrainsights.se/guide.html"}]}]}</script>
 <style id="keyra-page-navigation">
 .page-navigation{max-width:900px;margin:0 auto;padding:24px 32px 36px;display:flex;gap:12px;justify-content:space-between;align-items:center;flex-wrap:wrap;border-top:1px solid #e4e0da}.page-navigation a,.page-navigation button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 18px;border:1px solid #354b67;border-radius:6px;background:#fff;color:#354b67;font:inherit;font-size:15px;font-weight:600;text-decoration:none;cursor:pointer}.page-navigation a:hover,.page-navigation button:hover{background:#f0ede8}.page-navigation a:focus-visible,.page-navigation button:focus-visible{outline:3px solid #AE593E;outline-offset:3px}@media(max-width:600px){.page-navigation{padding:20px;gap:10px}.page-navigation a,.page-navigation button{flex:1}}
@@ -46,6 +53,10 @@ html body{font-family:Arial,sans-serif}html body p,html body li,html body label,
 <button type="button" id="tab-fas4" role="tab" aria-controls="fas4" aria-selected="false" tabindex="-1"><span class="tab-number">FAS 4</span>Tillträde och ägande</button>
 </nav><p class="phase-nav-hint">Välj en flik för att läsa fasen. Du kan när som helst växla mellan faserna utan att lämna sidan.</p>
 <section id="fas1" class="phase-content active" role="tabpanel" aria-labelledby="tab-fas1" tabindex="0"><h2>Fas 1 Förberedelse och ekonomi</h2>
+<div class="phase-image-grid" aria-label="Bilder om förberedelser och ekonomi">
+<figure><img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Person går igenom ekonomiska papper och kalkyl inför ett bostadsköp" loading="lazy"><figcaption>Gör en realistisk budget innan du börjar leta.</figcaption></figure>
+<figure><img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Dokument och anteckningar på ett skrivbord" loading="lazy"><figcaption>Samla dokument och reda ut vilka handlingar du behöver.</figcaption></figure>
+</div>
 <h3 id="kan-jag-som-svensk-kopa-bostad-i-spanien-utan-att-bo-dar">Kan jag som svensk köpa bostad i Spanien utan att bo där?</h3>
 <p>Ja. Som svensk privatperson kan du normalt köpa en bostad i Spanien även om ditt hem, arbete och huvudsakliga liv finns i Sverige. Du behöver inte bli spansk medborgare eller flytta till Spanien för ett vanligt köp. Däremot behöver du kunna identifieras i spanska myndighets- och skatteärenden, vilket är en anledning till att NIE-numret kommer in i processen.</p>
 <p>Att köpa ett semesterboende och att flytta permanent är olika projekt. Vid en flytt behöver du också utreda uppehållsregistrering, skatterättslig hemvist, sjukvård och eventuell svensk anknytning. Ägandet i sig avgör inte i vilket land du är skatteresident.</p>
@@ -122,6 +133,10 @@ html body{font-family:Arial,sans-serif}html body p,html body li,html body label,
 <div class="phase-next-wrap"><a class="phase-next" href="#fas2" data-next-phase="1">Nästa fas: Söka bostad och visning →</a></div>
 </section>
 <section id="fas2" class="phase-content" role="tabpanel" aria-labelledby="tab-fas2" tabindex="0"><h2>Fas 2 Söka bostad och gå på visning</h2>
+<div class="phase-image-grid" aria-label="Bilder om bostadssökande och visning">
+<figure><img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Friliggande hus med trädgård och terrass" loading="lazy"><figcaption>Jämför bostadstyp, läge och omgivning.</figcaption></figure>
+<figure><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Ljust modernt vardagsrum i en bostad" loading="lazy"><figcaption>På visningen: kontrollera planlösning, skick och dagsljus.</figcaption></figure>
+</div>
 <h3 id="hur-vet-jag-vilket-omrade-som-passar-mig">Hur vet jag vilket område som passar mig?</h3>
 <p>Besök gärna området när du faktiskt tänker bo där. En ort som känns livlig i juli kan ha begränsad service på vintern. Ett uppskattat kvällsliv kan också bli ett störningsmoment om bostaden ligger nära restauranger.</p>
 <ul><li>Testa restiden till flygplats, matbutik och vård.</li><li>Gå sträckan till stranden och undersök backar och tillgänglighet.</li><li>Besök området vid olika tider och bedöm buller och trafik.</li><li>Kontrollera sol, skugga och bostadens värme- och kylbehov.</li><li>Undersök lokala riskkartor, exempelvis översvämning och brand.</li><li>Jämför vad som är öppet under den del av året du vill bo där.</li></ul>
@@ -149,6 +164,10 @@ html body{font-family:Arial,sans-serif}html body p,html body li,html body label,
 <div class="phase-next-wrap"><a class="phase-next" href="#fas3" data-next-phase="2">Nästa fas: Juridik och avtal →</a></div>
 </section>
 <section id="fas3" class="phase-content" role="tabpanel" aria-labelledby="tab-fas3" tabindex="0"><h2>Fas 3 Juridisk granskning och avtal</h2>
+<div class="phase-image-grid" aria-label="Bilder om juridisk granskning och avtal">
+<figure><img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Juridiska böcker och dokument på ett bord" loading="lazy"><figcaption>Låt en oberoende jurist granska bostaden och handlingarna.</figcaption></figure>
+<figure><img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Avtal och dokument som gås igenom med penna" loading="lazy"><figcaption>Förstå villkoren och betalningsplanen innan du skriver under.</figcaption></figure>
+</div>
 <h3 id="jurist">Vad kontrollerar juristen innan jag köper?</h3>
 <p>Be om ett begripligt granskningsunderlag, inte bara ett muntligt ”allt ser bra ut”. Juristen bör ange vad som är kontrollerat, vad som återstår och vilka risker som påverkar ditt beslut.</p>
 <div class="scroll"><table><thead><tr><th>Kontroll</th><th>Vad du behöver förstå</th></tr></thead><tbody><tr><td>Ägare och behörighet</td><td>Vem äger och vilka personer måste godkänna eller underteckna försäljningen?</td></tr><tr><td>Registeruppgifter</td><td>Vad visar aktuell nota simple om fastigheten, inteckningar och andra belastningar?</td></tr><tr><td>Registro och Catastro</td><td>Stämmer identitet, användning, arealer och beskrivning med bostaden på plats?</td></tr><tr><td>Kommunala handlingar</td><td>Vilka bygg- och brukstillstånd finns, och finns pågående tillsyn eller andra begränsningar?</td></tr><tr><td>Tillbyggnader och pool</td><td>Är dessa rättsligt hanterade och registrerade där det krävs?</td></tr><tr><td>Skulder och kostnader</td><td>Finns obetald IBI, föreningsavgifter eller beslutade extra uttaxeringar?</td></tr><tr><td>Hyresgäster och nyttjanderätter</td><td>Kan bostaden lämnas enligt avtalet, och finns rättigheter som påverkar köpet?</td></tr><tr><td>Särskild användning</td><td>Är uthyrning, ombyggnad eller annan planerad användning möjlig?</td></tr></tbody></table></div>
@@ -173,6 +192,10 @@ html body{font-family:Arial,sans-serif}html body p,html body li,html body label,
 <div class="phase-next-wrap"><a class="phase-next" href="#fas4" data-next-phase="3">Nästa fas: Tillträde och ägande →</a></div>
 </section>
 <section id="fas4" class="phase-content" role="tabpanel" aria-labelledby="tab-fas4" tabindex="0"><h2>Fas 4 Tillträde och ägande</h2>
+<div class="phase-image-grid" aria-label="Bilder om tillträde och ägande">
+<figure><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Modernt hus med uteplats och grönska" loading="lazy"><figcaption>Efter tillträdet börjar vardagen som bostadsägare.</figcaption></figure>
+<figure><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Ljust inrett vardagsrum i ett hem" loading="lazy"><figcaption>Planera för drift, försäkring och löpande underhåll.</figcaption></figure>
+</div>
 <h3 id="vem-ar-notarien-och-vad-hander-pa-tilltradesdagen">Vem är notarien och vad händer på tillträdesdagen?</h3>
 <p>Notarien, <em>notario</em>, är en jurist med offentlig funktion som formellt upprättar och bestyrker handlingen. Tillträdet är den tidpunkt när affären genomförs enligt avtalet, slutbetalningen hanteras och bostaden lämnas över.</p>
 <p>Den offentliga köpehandlingen kallas <em>escritura pública de compraventa</em>. Före tillträdet bör du och juristen läsa utkastet och stämma av pris, ägarandelar, betalningar, bostadens identitet och hur belastningar ska avvecklas.</p>
