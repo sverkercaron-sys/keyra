@@ -103,7 +103,7 @@ body.js-tabs section.phase-content.active{display:block}
 <p>En <em>abogado</em> är en spansk advokat. Sök en person med erfarenhet av fastighetsköp i den aktuella regionen och kontrollera medlemskap i relevant advokatsamfund. Det bör vara tydligt att uppdraget gäller dina intressen.</p>
 <p>Be om ett skriftligt uppdrag, pris inklusive moms och en lista över vad som ingår: granskning av bostaden, avtal, betalningsupplägg, tillträde, skatter och registrering. Fråga om relationer eller ersättningar från mäklare, säljare eller byggaktör. Om juristen rekommenderats av mäklaren är det fortfarande du som ska kunna välja och ge instruktionerna.</p>
 <div class="box"><strong>Nästa steg efter förberedelserna</strong><p>Prata med svensk och spansk bank om alternativen är aktuella, sätt en totalbudget och anlita jurist. Undersök rätt NIE-väg. Börja leta med en budget som inkluderar skatter och avgifter.</p></div>
-<div class="phase-next-wrap"><button type="button" class="phase-next" data-next-phase="1">Nästa fas: Söka bostad och visning →</button></div>
+<div class="phase-next-wrap"><a class="phase-next" href="#fas2" data-next-phase="1">Nästa fas: Söka bostad och visning →</a></div>
 </section>
 <section id="fas2" class="phase-content" role="tabpanel" aria-labelledby="tab-fas2" tabindex="0"><h2>Fas 2 Söka bostad och gå på visning</h2>
 <h3 id="hur-vet-jag-vilket-omrade-som-passar-mig">Hur vet jag vilket område som passar mig?</h3>
@@ -130,7 +130,7 @@ body.js-tabs section.phase-content.active{display:block}
 <div class="box"><strong>Två kontroller som kompletterar varandra</strong><p>Teknikern bedömer skicket. Juristen utreder den rättsliga situationen. Ett fint skick visar inte att en tillbyggnad är tillåten, och ordnade handlingar visar inte att taket är tätt.</p></div>
 <p>Läs även <a href="#jurist">vad juristen kontrollerar</a> och <a href="#vad-ar-ett-reservationsavtal-och-nar-blir-jag-bunden">när en reservation kan bli bindande</a>. Spara annons, ritningar och skriftliga svar från säljaren. Frågor om renoveringar, vattenläckor och tidigare försäkringsärenden bör ställas före avtalet, och väsentliga uppgifter bör dokumenteras.</p>
 <div class="box"><strong>Nästa steg efter visningarna</strong><p>Välj en kandidat, be om dokumentation och låt jurist och tekniker göra sina kontroller. Förstå först pris, avgifter och mäklarens uppdrag. Skriv inte under en reservation bara för att du känner dig pressad.</p></div>
-<div class="phase-next-wrap"><button type="button" class="phase-next" data-next-phase="2">Nästa fas: Juridik och avtal →</button></div>
+<div class="phase-next-wrap"><a class="phase-next" href="#fas3" data-next-phase="2">Nästa fas: Juridik och avtal →</a></div>
 </section>
 <section id="fas3" class="phase-content" role="tabpanel" aria-labelledby="tab-fas3" tabindex="0"><h2>Fas 3 Juridisk granskning och avtal</h2>
 <h3 id="jurist">Vad kontrollerar juristen innan jag köper?</h3>
@@ -154,7 +154,7 @@ body.js-tabs section.phase-content.active{display:block}
 <p>Spansk bygglagstiftning ställer krav på garantier för förskottsbetalningar från bygglovets erhållande och på ett särskilt konto. Garantin ska hanteras enligt reglerna och avse de förskott som omfattas. Låt juristen kontrollera den individuella garantihandlingen, omfattningen och hur du kan kräva återbetalning om projektet inte fullföljs. <a href="#s12">[12]</a></p>
 <p>Planera en teknisk genomgång vid leverans och dokumentera fel. Betalningsgarantin är inte samma sak som skyddet för byggfel efter färdigställandet.</p>
 <div class="box"><strong>Nästa steg inför avtal och tillträde</strong><p>Be juristen förklara granskningsresultatet och villkoren på ett språk du förstår. Klargör betalningar, finansieringsvillkor och vad som händer om någon inte fullföljer.</p></div>
-<div class="phase-next-wrap"><button type="button" class="phase-next" data-next-phase="3">Nästa fas: Tillträde och ägande →</button></div>
+<div class="phase-next-wrap"><a class="phase-next" href="#fas4" data-next-phase="3">Nästa fas: Tillträde och ägande →</a></div>
 </section>
 <section id="fas4" class="phase-content" role="tabpanel" aria-labelledby="tab-fas4" tabindex="0"><h2>Fas 4 Tillträde och ägande</h2>
 <h3 id="vem-ar-notarien-och-vad-hander-pa-tilltradesdagen">Vem är notarien och vad händer på tillträdesdagen?</h3>
@@ -237,11 +237,13 @@ body.js-tabs section.phase-content.active{display:block}
     });
     if(moveFocus) buttons[index].focus();
   }
-  nav.querySelectorAll('[data-next-phase]').forEach(function(button){
-    button.addEventListener('click',function(){
-      var nextIndex=Number(button.getAttribute('data-next-phase'));
+  document.querySelectorAll('[data-next-phase]').forEach(function(link){
+    link.addEventListener('click',function(event){
+      var nextIndex=Number(link.getAttribute('data-next-phase'));
       if(nextIndex<0 || nextIndex>=buttons.length) return;
+      event.preventDefault();
       activate(nextIndex,false);
+      history.replaceState(null,'','#'+panels[nextIndex].id);
       panels[nextIndex].scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
     });
   });
