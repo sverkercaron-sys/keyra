@@ -1,0 +1,29 @@
+/* Keyra Insights shared visual system — aligned with the homepage */
+:root{--keyra-ink:#252a34;--keyra-sea:#354b67;--keyra-clay:#ae593e;--keyra-paper:#faf8f4;--keyra-sand:#efe8dc;--keyra-line:#e4e0da;--keyra-white:#fff}
+html{scroll-behavior:smooth;scroll-padding-top:100px}
+body{background:var(--keyra-paper)!important;color:var(--keyra-ink)!important;font-family:Arial,sans-serif!important;font-size:16px;line-height:1.7}
+body p,body li,body label,body input,body select,body textarea,body button,body a,body nav{font-family:Arial,sans-serif}
+h1,h2,h3,h4{font-family:Georgia,serif!important;color:var(--keyra-ink);line-height:1.15}
+h1{font-size:clamp(38px,5vw,60px)!important;letter-spacing:-.025em}
+h2{font-size:clamp(28px,3.2vw,38px)!important;letter-spacing:-.02em}
+h3{font-size:23px!important}
+a{color:var(--keyra-sea);text-underline-offset:4px}
+.keyra-topbar{position:sticky;top:0;z-index:1000;background:#fff;border-bottom:1px solid var(--keyra-line);box-shadow:none;font:14px/1.4 Arial,sans-serif}
+.keyra-topbar-inner{max-width:1280px;margin:auto;padding:17px 32px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.keyra-brand{display:flex;flex-direction:column;color:var(--keyra-ink);text-decoration:none;font:30px/1 Georgia,serif;letter-spacing:.12em;white-space:nowrap}
+.keyra-brand span{color:var(--keyra-clay)}
+.keyra-brand small{display:block;margin-top:5px;font:10px/1 Arial,sans-serif;letter-spacing:.32em}
+.keyra-topnav{display:flex;align-items:center;gap:clamp(12px,1.6vw,24px);flex-wrap:wrap}
+.keyra-topnav a{color:var(--keyra-ink);font:12px/1.4 Arial,sans-serif;text-decoration:none;white-space:nowrap}
+.keyra-topnav a:hover,.keyra-topnav a[aria-current=page]{color:var(--keyra-sea);text-decoration:underline;text-underline-offset:5px}
+.keyra-topnav a:last-child{border:1px solid var(--keyra-ink);padding:10px 14px}
+@media(max-width:900px){.keyra-topbar-inner{padding:14px 20px;align-items:flex-start;flex-direction:column;gap:14px}.keyra-topnav{gap:8px 18px}.keyra-topnav a{font-size:12px}}
+@media(max-width:600px){.keyra-topbar-inner{padding:13px 18px}.keyra-topnav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;gap:10px 12px}.keyra-topnav a{white-space:normal}.keyra-topnav a:last-child{padding:6px 8px;text-align:center}}
+header:not(.keyra-topbar):not(.site-header){color:var(--keyra-ink)}
+main{border-radius:0}
+main>section,main>article,main>.wrap{min-width:0}
+main article{overflow-wrap:anywhere}
+button,.button,input,select,textarea{border-radius:3px}
+button,.button{transition:background-color .15s ease,border-color .15s ease}
+img{max-width:100%}
+.page-navigation{max-width:1200px!important}
