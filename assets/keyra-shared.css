@@ -27,3 +27,6 @@ button,.button,input,select,textarea{border-radius:3px}
 button,.button{transition:background-color .15s ease,border-color .15s ease}
 img{max-width:100%}
 .page-navigation{max-width:1200px!important}
+
+/* Keep the period after KEYRA visible and positioned like the homepage logo. */
+.keyra-topbar .keyra-brand .keyra-logo-dot{display:inline!important;position:static!important;color:var(--keyra-clay)!important;font:inherit!important;letter-spacing:inherit!important;line-height:inherit!important;vertical-align:baseline!important}
