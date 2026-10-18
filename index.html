@@ -33,7 +33,11 @@ body{background:#faf8f4}
 #properties>div{background:#f3ecdf;padding:38px;border-radius:8px;border:0}
 #calc-form,#contact-form{background:#fffaf4;padding:28px;border-radius:8px;border:0}
 @media(max-width:640px){#article-grid{grid-template-columns:1fr;gap:20px}.topic-photo{height:210px}.section-photo{height:220px}.image-break{padding:0 20px}.image-break img{height:240px}#properties>div{padding:26px}#calc-form,#contact-form{padding:22px}}
-</style></head>
+</style>
+<style id="keyra-page-navigation">
+.page-navigation{max-width:900px;margin:0 auto;padding:24px 32px 36px;display:flex;gap:12px;justify-content:space-between;align-items:center;flex-wrap:wrap;border-top:1px solid #e4e0da}.page-navigation a,.page-navigation button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 18px;border:1px solid #354b67;border-radius:6px;background:#fff;color:#354b67;font:inherit;font-size:15px;font-weight:600;text-decoration:none;cursor:pointer}.page-navigation a:hover,.page-navigation button:hover{background:#f0ede8}.page-navigation a:focus-visible,.page-navigation button:focus-visible{outline:3px solid #AE593E;outline-offset:3px}@media(max-width:600px){.page-navigation{padding:20px;gap:10px}.page-navigation a,.page-navigation button{flex:1}}
+</style>
+</head>
 <body class="bg-white text-ink font-sans antialiased">
   <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:bg-white focus:p-4">Hoppa till innehållet</a>
   
@@ -116,5 +120,10 @@ body{background:#faf8f4}
     calcForm.addEventListener('submit',e=>{e.preventDefault();calculatePurchase()});
     document.getElementById('contact-form').addEventListener('submit',e=>{e.preventDefault();const status=document.getElementById('contact-status');status.hidden=false;status.textContent='Formuläret fungerar i förhandsvisningen. Inget har skickats. Bokning och kontakt öppnar vid lansering.'});
   </script>
+
+<nav class="page-navigation" aria-label="Sidnavigering">
+  <button type="button" onclick="if (window.history.length > 1) { window.history.back(); } else { window.location.href = 'index.html'; }">← Tillbaka</button>
+  <a href="index.html">Till startsidan</a>
+</nav>
 </body>
 </html>
