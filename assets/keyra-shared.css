@@ -30,3 +30,9 @@ img{max-width:100%}
 
 /* Keep the period after KEYRA visible and positioned like the homepage logo. */
 .keyra-topbar .keyra-brand .keyra-logo-dot{display:inline!important;position:static!important;color:var(--keyra-clay)!important;font:inherit!important;letter-spacing:inherit!important;line-height:inherit!important;vertical-align:baseline!important}
+
+/* Match the homepage logo: KEYRA. on one line, INSIGHTS below. */
+.keyra-topbar .keyra-brand{display:flex!important;flex-direction:column!important;align-items:flex-start!important;font-size:0!important;line-height:1!important;letter-spacing:0!important}
+.keyra-topbar .keyra-brand .keyra-logo-line{display:block!important;font:30px/1 Georgia,serif!important;font-weight:400!important;letter-spacing:.12em!important;color:var(--keyra-ink)!important;white-space:nowrap!important}
+.keyra-topbar .keyra-brand .keyra-logo-dot{display:inline!important;color:var(--keyra-clay)!important;font:inherit!important;letter-spacing:inherit!important}
+.keyra-topbar .keyra-brand small{display:block!important;margin-top:5px!important;font:10px/1 Arial,sans-serif!important;letter-spacing:.32em!important;color:var(--keyra-ink)!important}
